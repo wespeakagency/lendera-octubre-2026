@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lendera — Reporte de resultados · Octubre 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--black:#050505;--off:#0a0a0a;--gray:#1f1f1f;--white:#f7f7f5;--muted:#a6a6a2;--line:rgba(255,255,255,.12);--red:#ff3b45;--soft:#ff6670;--amber:#ffcc66}*{box-sizing:border-box}html{background:#111}body{margin:0;background:#111;color:var(--white);font-family:Montserrat,Arial,sans-serif;line-height:1.45}.page{width:100%;min-height:100vh;padding:clamp(30px,5vw,70px) clamp(24px,7vw,112px) 74px;position:relative;overflow:hidden;background:var(--black);border-bottom:1px solid var(--line)}.page:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 88% 8%,rgba(255,59,69,.11),transparent 28%),radial-gradient(circle at 4% 100%,rgba(255,255,255,.04),transparent 26%)}.content{max-width:1440px;margin:auto;position:relative;z-index:1}.brand{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-bottom:16px;border-bottom:1px solid var(--line)}.logo{height:52px;width:auto;filter:drop-shadow(0 0 8px rgba(255,255,255,.25))}.eyebrow,.label{font-size:10px;letter-spacing:.19em;text-transform:uppercase;color:var(--red);font-weight:800}.tag{border:1px solid rgba(255,59,69,.55);color:var(--red);padding:5px 9px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}.hero{display:flex;flex-direction:column;justify-content:space-between;min-height:calc(100vh - 144px)}.hero h1{max-width:1000px;margin:0;font-size:clamp(54px,8.5vw,128px);line-height:.9;letter-spacing:-.07em;text-transform:uppercase;font-weight:900}.outline{color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.78);text-shadow:0 0 18px rgba(255,255,255,.12)}.lead{max-width:700px;color:#d0d0ca;font-size:clamp(15px,1.6vw,20px);line-height:1.55}.hero-bottom{display:flex;justify-content:space-between;align-items:end;gap:20px}.stamp{font-size:10px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}.signal{font-size:clamp(30px,4vw,54px);line-height:1;font-weight:900;color:var(--red);text-shadow:0 0 18px rgba(255,59,69,.26)}h2{max-width:1050px;margin:24px 0 12px;font-size:clamp(36px,5vw,70px);line-height:.94;letter-spacing:-.06em;text-transform:uppercase;font-weight:900}h3{margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase}.intro{max-width:820px;margin:0 0 28px;color:#c8c8c2;font-size:15px}.grid4,.grid3,.grid2{display:grid;gap:10px}.grid4{grid-template-columns:repeat(4,1fr)}.grid3{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:repeat(2,1fr)}.card{min-height:142px;padding:18px;background:rgba(255,255,255,.035);border:1px solid var(--line)}.card .big{display:block;margin:8px 0;font-size:clamp(30px,3.4vw,52px);line-height:.95;letter-spacing:-.06em;font-weight:900}.card .note{color:#b9b9b2;font-size:10px}.red{color:var(--red)}.soft{color:var(--soft)}.amber{color:var(--amber)}.callout{margin:16px 0;padding:15px 18px;border-left:3px solid var(--red);background:rgba(255,59,69,.08);color:#ddd;font-size:14px}.callout strong{color:var(--red)}.kpi-line{display:flex;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid var(--line);font-size:12px}.kpi-line b{color:#fff;text-align:right}.kpi-line:last-child{border-bottom:0}.table{width:100%;border-collapse:collapse;font-size:12px}.table th{padding:10px 8px;color:var(--muted);font-size:9px;letter-spacing:.12em;text-transform:uppercase;text-align:left;border-bottom:1px solid rgba(255,255,255,.25)}.table td{padding:12px 8px;color:#d6d6d0;border-bottom:1px solid var(--line)}.right{text-align:right}.accent{color:var(--red)!important;font-weight:800}.muted{color:var(--muted)}.divider{height:1px;margin:26px 0;background:var(--line)}.barrow{display:grid;grid-template-columns:1.35fr 3fr .72fr;gap:10px;align-items:center;margin:14px 0;font-size:12px}.bar{height:9px;border:1px solid rgba(255,255,255,.1);background:var(--gray)}.bar span{display:block;height:100%;background:var(--red);box-shadow:0 0 12px rgba(255,59,69,.38)}.rank{display:block;margin-bottom:14px;color:var(--red);font-size:32px;line-height:.8;font-weight:900;letter-spacing:-.06em}.quote{max-width:1000px;color:#fff;font-size:clamp(20px,2.5vw,34px);font-weight:600;line-height:1.08;letter-spacing:-.04em}.foot{position:absolute;z-index:2;bottom:24px;left:clamp(24px,7vw,112px);right:clamp(24px,7vw,112px);display:flex;justify-content:space-between;padding-top:9px;border-top:1px solid var(--line);color:#777;font-size:9px;letter-spacing:.07em;text-transform:uppercase}.action{border-left:3px solid var(--red)}@media(max-width:800px){.grid4,.grid3,.grid2{grid-template-columns:1fr 1fr}.page{min-height:auto;padding-bottom:88px}.hero{min-height:calc(100vh - 118px)}.table{font-size:10px}.table th,.table td{padding:8px 4px}.barrow{grid-template-columns:1.2fr 1.7fr .7fr}.card{min-height:120px}}@media(max-width:540px){.grid4,.grid3,.grid2{grid-template-columns:1fr}.brand .eyebrow{display:none}.logo{height:42px}.hero-bottom{align-items:start;flex-direction:column}.table{font-size:9px}.foot{font-size:8px}}
+</style>
+<style>
+.tiktok-embed{width:100%;height:500px;border:0;background:#0a0a0a;display:block}.embed-meta{padding:12px 0 0}.embed-meta h3{margin:0 0 6px}.embed-meta p{margin:0;color:var(--muted);font-size:11px}@media(max-width:800px){.tiktok-embed{height:560px}}
+</style>
+</head>
+<body>
+<section class="page">
+<div class="content hero">
+<div class="brand">
+<img class="logo" src="../lendera-logo-blanco-cropped.png" alt="Lendera">
+<span class="eyebrow">WE SPEAK / IMPACT REPORT</span>
+</div>
+<div>
+<p class="eyebrow">LENDERA · OCTUBRE 2026</p>
+<h1>Resultados<br>
+<span class="outline">octubre 2026.</span>
+</h1>
+</div>
+<div class="hero-bottom">
+<div>
+<div class="stamp">Corte de datos · 1–31 octubre 2026</div>
+<div class="stamp">Elaborado por agencia</div>
+</div>
+<div class="signal">10 — 26</div>
+</div>
+</div>
+<div class="foot">
+<span>LENDERA / CONFIDENCIAL</span>
+<span>01</span>
+</div>
+</section>
+
+<section class="page">
+<div class="content">
+<div class="brand">
+<span class="eyebrow">01 / lectura ejecutiva</span>
+<span class="tag">octubre 2026</span>
+</div>
+<h2>Resumen de octubre</h2>
+<div class="grid4">
+<article class="card">
+<span class="label">Usuarios activos GA4</span>
+<span class="big red">4,242</span>
+<span class="note">2,545 desktop · 1,673 mobile</span>
+</article>
+<article class="card">
+<span class="label">Usuarios nuevos</span>
+<span class="big soft">2,668</span>
+<span class="note">evento first_visit</span>
+</article>
+<article class="card">
+<span class="label">Sesiones</span>
+<span class="big red">12,411</span>
+<span class="note">octubre completo</span>
+</article>
+<article class="card">
+<span class="label">Registros / activados</span>
+<span class="big amber">33 / 4</span>
+<span class="note">tasa de activación: 12.1%</span>
+</article>
+</div>
+<div class="callout">
+<strong>Sin pauta en octubre.</strong> El tráfico llegó principalmente por acceso directo y búsqueda orgánica.</div>
+<div class="grid2">
+<article class="card">
+<h3>Canales con mayor volumen</h3>
+<div class="kpi-line">
+<span>Direct</span>
+<b>8,038 sesiones</b>
+</div>
+<div class="kpi-line">
+<span>Google orgánico</span>
+<b>3,597 sesiones</b>
+</div>
+<div class="kpi-line">
+<span>Paid media</span>
+<b class="amber">Sin inversión</b>
+</div>
+</article>
+<article class="card">
+<h3>Correo a empresas</h3>
+<div class="kpi-line">
+<span>Enviados</span>
+<b>2,464</b>
+</div>
+<div class="kpi-line">
+<span>Abiertos</span>
+<b>966 · 39.2%</b>
+</div>
+<div class="kpi-line">
+<span>Clics</span>
+<b>32 · 1.3%</b>
+</div>
+<div class="kpi-line">
+<span>Solicitudes</span>
+<b class="red">9</b>
+</div>
+</article>
+</div>
+</div>
+<div class="foot">
+<span>Fuente: GA4, correo y base comercial</span>
+<span>02</span>
+</div>
+</section>
+
+<section class="page">
+<div class="content">
+<div class="brand">
+<span class="eyebrow">02 / comparativa</span>
+<span class="tag">agosto — octubre</span>
+</div>
+<h2>Comparativa: agosto–octubre</h2>
+<div class="grid3">
+<article class="card">
+<h3>Usuarios activos GA4</h3>
+<svg viewBox="0 0 360 230" role="img" aria-label="Usuarios activos: agosto 6813, septiembre 6711, octubre 4242">
+<line x1="42" y1="184" x2="340" y2="184" stroke="#555"/>
+<rect x="68" y="48" width="54" height="136" fill="#ff3b45"/>
+<rect x="155" y="50" width="54" height="134" fill="#ff6670"/>
+<rect x="242" y="99" width="54" height="85" fill="#ff3b45"/>
+<text x="95" y="39" fill="#f7f7f5" text-anchor="middle" font-size="13">6,813</text>
+<text x="182" y="41" fill="#f7f7f5" text-anchor="middle" font-size="13">6,711</text>
+<text x="269" y="90" fill="#f7f7f5" text-anchor="middle" font-size="13">4,242</text>
+<text x="95" y="207" fill="#aaa" text-anchor="middle" font-size="12">AGO</text>
+<text x="182" y="207" fill="#aaa" text-anchor="middle" font-size="12">SEP</text>
+<text x="269" y="207" fill="#aaa" text-anchor="middle" font-size="12">OCT</text>
+</svg>
+<p class="note">Octubre: -36.8% vs. septiembre.</p>
+</article>
+<article class="card">
+<h3>Landing views pagadas</h3>
+<svg viewBox="0 0 360 230" role="img" aria-label="Landing views pagadas: agosto 2074, septiembre 2435, octubre 0">
+<line x1="42" y1="184" x2="340" y2="184" stroke="#555"/>
+<rect x="68" y="69" width="54" height="115" fill="#ff3b45"/>
+<rect x="155" y="49" width="54" height="135" fill="#ff6670"/>
+<circle cx="269" cy="182" r="4" fill="#ff3b45"/>
+<text x="95" y="60" fill="#f7f7f5" text-anchor="middle" font-size="13">2,074</text>
+<text x="182" y="40" fill="#f7f7f5" text-anchor="middle" font-size="13">2,435</text>
+<text x="269" y="168" fill="#aaa" text-anchor="middle" font-size="13">0</text>
+<text x="95" y="207" fill="#aaa" text-anchor="middle" font-size="12">AGO</text>
+<text x="182" y="207" fill="#aaa" text-anchor="middle" font-size="12">SEP</text>
+<text x="269" y="207" fill="#aaa" text-anchor="middle" font-size="12">OCT</text>
+</svg>
+<p class="note">Octubre: sin pauta digital.</p>
+</article>
+<article class="card">
+<h3>Registros y activaciones</h3>
+<svg viewBox="0 0 360 230" role="img" aria-label="Registros: agosto 30, septiembre 35, octubre 33. Activaciones: 1, 3 y 4">
+<line x1="42" y1="184" x2="340" y2="184" stroke="#555"/>
+<rect x="62" y="84" width="28" height="100" fill="#ff3b45"/>
+<rect x="94" y="181" width="28" height="3" fill="#ffcc66"/>
+<rect x="149" y="67" width="28" height="117" fill="#ff3b45"/>
+<rect x="181" y="174" width="28" height="10" fill="#ffcc66"/>
+<rect x="236" y="74" width="28" height="110" fill="#ff3b45"/>
+<rect x="268" y="170" width="28" height="14" fill="#ffcc66"/>
+<text x="76" y="75" fill="#f7f7f5" text-anchor="middle" font-size="12">30</text>
+<text x="163" y="58" fill="#f7f7f5" text-anchor="middle" font-size="12">35</text>
+<text x="250" y="65" fill="#f7f7f5" text-anchor="middle" font-size="12">33</text>
+<text x="92" y="207" fill="#aaa" text-anchor="middle" font-size="12">AGO</text>
+<text x="179" y="207" fill="#aaa" text-anchor="middle" font-size="12">SEP</text>
+<text x="266" y="207" fill="#aaa" text-anchor="middle" font-size="12">OCT</text>
+</svg>
+<p class="note">
+<span class="red">■</span> Registros &nbsp; <span class="amber">■</span> Activaciones (1 · 3 · 4)</p>
+</article>
+</div>
+<div class="callout">
+<strong>Activación:</strong> 3.3% en agosto · 8.6% en septiembre · 12.1% en octubre.</div>
+</div>
+<div class="foot">
+<span>Fuente: GA4, Meta Ads y datos de registros</span>
+<span>03</span>
+</div>
+</section>
+
+<section class="page">
+<div class="content">
+<div class="brand">
+<span class="eyebrow">03 / canales</span>
+<span class="tag">adquisición y calidad</span>
+</div>
+<h2>Tráfico por canal</h2>
+<table class="table">
+<thead>
+<tr>
+<th>Canal</th>
+<th class="right">Sesiones</th>
+<th class="right">Interacción</th>
+<th>Lectura</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>Direct</b>
+</td>
+<td class="right accent">8,038</td>
+<td class="right">69.2%</td>
+<td>Principal fuente de sesiones.</td>
+</tr>
+<tr>
+<td>
+<b>Google / Organic</b>
+</td>
+<td class="right accent">3,597</td>
+<td class="right">79.0%</td>
+<td>Mayor interacción entre los canales con escala.</td>
+</tr>
+<tr>
+<td>
+<b>Bing / Organic</b>
+</td>
+<td class="right">284</td>
+<td class="right">83.1%</td>
+<td>Menor volumen, alta interacción.</td>
+</tr>
+<tr>
+<td>
+<b>Referral</b>
+</td>
+<td class="right">~430</td>
+<td class="right">Variable</td>
+<td>Tráfico distribuido entre varios sitios.</td>
+</tr>
+<tr>
+<td>
+<b>Email</b>
+</td>
+<td class="right">30</td>
+<td class="right">36.7%</td>
+<td>Sesiones atribuidas a BenchmarkEmail.</td>
+</tr>
+</tbody>
+</table>
+<div class="divider">
+</div>
+<div class="grid2">
+<article class="card">
+<h3>Dispositivo</h3>
+<div class="barrow">
+<span>Desktop</span>
+<div class="bar">
+<span style="width:60.1%">
+</span>
+</div>
+<b>2,545</b>
+</div>
+<div class="barrow">
+<span>Mobile</span>
+<div class="bar softbar">
+<span style="width:39.5%">
+</span>
+</div>
+<b>1,673</b>
+</div>
+<p class="muted">Usuarios activos por dispositivo.</p>
+</article>
+<article class="card">
+<h3>Eventos principales</h3>
+<div class="kpi-line">
+<span>page_view</span>
+<b>56,021</b>
+</div>
+<div class="kpi-line">
+<span>user_engagement</span>
+<b>50,694</b>
+</div>
+<div class="kpi-line">
+<span>session_start</span>
+<b>12,411</b>
+</div>
+<div class="kpi-line">
+<span>first_visit</span>
+<b>2,668</b>
+</div>
+</article>
+</div>
+</div>
+<div class="foot">
+<span>Fuente: GA4 · 1–31 oct</span>
+<span>04</span>
+</div>
+</section>
+
+<section class="page">
+<div class="content">
+<div class="brand">
+<span class="eyebrow">04 / contenidos</span>
+<span class="tag">top publicaciones</span>
+</div>
+<h2>Contenidos con más vistas</h2>
+<div class="grid3">
+<article class="card">
+<iframe class="tiktok-embed" src="https://www.tiktok.com/embed/v2/7700759771900628231" title="TikTok destacado 1" allow="fullscreen" loading="lazy"></iframe>
+<div class="embed-meta"><h3>01 · TikTok · 25 oct</h3><p>572 visualizaciones · 1 interacción</p></div>
+</article>
+<article class="card">
+<iframe class="tiktok-embed" src="https://www.tiktok.com/embed/v2/7696584822466055432" title="TikTok destacado 2" allow="fullscreen" loading="lazy"></iframe>
+<div class="embed-meta"><h3>02 · TikTok · 14 oct</h3><p>534 visualizaciones · 25 interacciones</p></div>
+</article>
+<article class="card">
+<iframe class="tiktok-embed" src="https://www.tiktok.com/embed/v2/7693685192447364360" title="TikTok destacado 3" allow="fullscreen" loading="lazy"></iframe>
+<div class="embed-meta"><h3>03 · TikTok · 6 oct</h3><p>496 visualizaciones · 5 interacciones</p></div>
+</article>
+</div>
+<div class="divider">
+</div>
+<div class="grid2">
+<article class="card">
+<h3>Rendimiento de canales</h3>
+<div class="kpi-line">
+<span>Visualizaciones TikTok</span>
+<b>3,549*</b>
+</div>
+<div class="kpi-line">
+<span>Publicaciones registradas</span>
+<b>33</b>
+</div>
+</article>
+<article class="card">
+<h3>Señal editorial</h3>
+<p class="muted">Las piezas de humor cotidiano y los mensajes claros de inversión captaron más atención en TikTok. El contenido del mes combinó educación, hábitos financieros y coyuntura de Halloween.</p>
+</article>
+</div>
+<p class="muted" style="font-size:10px;margin-top:12px">*Suma de visualizaciones por publicación en TikTok, según la parrilla.</p>
+</div>
+<div class="foot">
+<span>Fuente: Parrilla de contenido · octubre</span>
+<span>05</span>
+</div>
+</section>
+
+<section class="page">
+<div class="content">
+<div class="brand">
+<span class="eyebrow">05 / comunidad</span>
+<span class="tag">cierre mensual</span>
+</div>
+<h2>Seguidores por red social</h2>
+<div class="grid4">
+<article class="card">
+<span class="label">Facebook</span>
+<span class="big red">23,208</span>
+<span class="note">-0.35% vs. septiembre</span>
+</article>
+<article class="card">
+<span class="label">Instagram</span>
+<span class="big soft">3,704</span>
+<span class="note">-0.40% vs. septiembre</span>
+</article>
+<article class="card">
+<span class="label">LinkedIn</span>
+<span class="big red">1,885</span>
+<span class="note">-0.05% vs. septiembre</span>
+</article>
+<article class="card">
+<span class="label">TikTok</span>
+<span class="big amber">265</span>
+<span class="note">+0.38% vs. septiembre</span>
+</article>
+</div>
+</div>
+<div class="foot">
+<span>Fuente: Métricas RRSS Lendera</span>
+<span>06</span>
+</div>
+</section>
+
+<section class="page">
+<div class="content">
+<div class="brand">
+<span class="eyebrow">06 / resultados comerciales</span>
+<span class="tag">registro y solicitud</span>
+</div>
+<h2>Registros y solicitudes</h2>
+<div class="grid2">
+<article class="card">
+<h3>Registros de plataforma</h3>
+<div class="kpi-line">
+<span>Registros</span>
+<b>33</b>
+</div>
+<div class="kpi-line">
+<span>Activados</span>
+<b class="red">4</b>
+</div>
+<div class="kpi-line">
+<span>Tasa de activación</span>
+<b>12.1%</b>
+</div>
+</article>
+<article class="card">
+<h3>Campaña de correo a empresas</h3>
+<div class="kpi-line">
+<span>Enviados</span>
+<b>2,464</b>
+</div>
+<div class="kpi-line">
+<span>Abiertos</span>
+<b>966 · 39.2%</b>
+</div>
+<div class="kpi-line">
+<span>Clics</span>
+<b>32 · 1.3%</b>
+</div>
+<div class="kpi-line">
+<span>Solicitudes recibidas</span>
+<b class="red">9</b>
+</div>
+<div class="kpi-line">
+<span>Avanzaron</span>
+<b class="amber">0</b>
+</div>
+</article>
+</div>
+</div>
+<div class="foot">
+<span>Fuente: datos de registros y campaña de correo</span>
+<span>07</span>
+</div>
+</section>
+
+<section class="page">
+<div class="content">
+<div class="brand">
+<span class="eyebrow">07 / esfuerzos del mes</span>
+<span class="tag">acciones implementadas</span>
+</div>
+<h2>Esfuerzos del mes</h2>
+<div class="grid3">
+<article class="card action">
+<span class="rank">01</span>
+<h3>Análisis de experiencia de inversionistas</h3>
+<div class="kpi-line">
+<span>Respuestas válidas</span>
+<b>122</b>
+</div>
+<div class="kpi-line">
+<span>Preferencia por web</span>
+<b class="red">67.2%</b>
+</div>
+<div class="kpi-line">
+<span>Oportunidad principal</span>
+<b>Usabilidad · 42 menciones</b>
+</div>
+</article>
+<article class="card action">
+<span class="rank">02</span>
+<h3>Email a empresas</h3>
+<div class="kpi-line">
+<span>Enviados</span>
+<b>2,464</b>
+</div>
+<div class="kpi-line">
+<span>Abiertos</span>
+<b>966</b>
+</div>
+<div class="kpi-line">
+<span>Clics</span>
+<b>32</b>
+</div>
+<div class="kpi-line">
+<span>Solicitudes</span>
+<b class="red">9</b>
+</div>
+</article>
+<article class="card action">
+<span class="rank">03</span>
+<h3>Contenido orgánico</h3>
+<div class="kpi-line">
+<span>Publicaciones en parrilla</span>
+<b>33</b>
+</div>
+<div class="kpi-line">
+<span>TikToks registrados</span>
+<b>11</b>
+</div>
+<div class="kpi-line">
+<span>Pauta digital</span>
+<b class="amber">No hubo en octubre</b>
+</div>
+</article>
+</div>
+<div class="divider">
+</div>
+<h3>Hallazgos del análisis de inversionistas</h3>
+<div class="grid3">
+<article class="card">
+<span class="label">Canal</span>
+<span class="big red">67.2%</span>
+<span class="note">prefiere la web · 82 de 122</span>
+</article>
+<article class="card">
+<span class="label">Experiencia</span>
+<span class="big soft">34.4%</span>
+<span class="note">menciona facilidad, claridad o agilidad</span>
+</article>
+<article class="card">
+<span class="label">Confianza</span>
+<span class="big amber">18.9%</span>
+<span class="note">menciona cobranza o riesgo</span>
+</article>
+</div>
+<div class="callout">
+<strong>Acción derivada.</strong> El estudio prioriza mejorar flujos móviles, presentar el portafolio con mayor claridad y actualizar el estado de cobranza.</div>
+<p class="muted" style="font-size:10px">Fuente de experiencia: 122 respuestas válidas; levantamiento del 22 de septiembre al 12 de octubre de 2026. Octubre no registró inversión en pauta.</p>
+</div>
+<div class="foot">
+<span>LENDERA / OCTUBRE 2026</span>
+<span>08</span>
+</div>
+</section>
+</body>
+</html>
